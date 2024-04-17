@@ -1,0 +1,10 @@
+About the Google test
+
+Has been used a submodule in this project
+You can get this project from github recursively
+
+Cli: git clone --recursive <repository_url>
+
+To clone a GitHub repository that contains submodules, 
+you can use the --recursive flag with the git clone command. 
+This flag tells Git to recursively clone submodules as well.

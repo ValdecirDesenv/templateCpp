@@ -1,0 +1,22 @@
+
+Explanation:
+
+include/: This folder contains all the header files (.h) for your project. 
+	It's organized in a way that mirrors your project's namespace hierarchy.
+src/: This directory contains all the source code files (.cpp) for your project.
+
+lib/: This folder is for third-party libraries that your project depends on. 
+	You can either include the library files directly or use package managers to handle dependencies.
+
+bin/: This is where the compiled executable files will be placed after building the project.
+
+test/: This directory holds all your unit tests. Each test file typically corresponds to a source file 
+	in the src/ directory.
+
+docs/: Documentation related to your project, such as API documentation, 
+	usage guides, or design documents.
+
+CMakeLists.txt: This is the configuration file for CMake, a popular build system for C++ projects. 
+	If you're using a different build system like Makefile, you'd have a different configuration file here.
+	
+README.md: A Markdown file containing information about your project, including how to build, install, and use it.
