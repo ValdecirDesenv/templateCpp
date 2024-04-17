@@ -19,4 +19,20 @@ docs/: Documentation related to your project, such as API documentation,
 CMakeLists.txt: This is the configuration file for CMake, a popular build system for C++ projects. 
 	If you're using a different build system like Makefile, you'd have a different configuration file here.
 	
-README.md: A Markdown file containing information about your project, including how to build, install, and use it.
+README.md: A Markdown file containing information about your project, including how to build, install, and use it.2
+
+
+CMakeLists Explanation
+  Main Folder:
+    1) set the principal link compilation
+  
+  src Folder:
+    2) set     
+
+
+Compilation:
+${CMAKE_CURRENT_SOURCE_DIR}
+
+ 1st  cmake -S. -B build
+ 2nd  cmake --build build -j 12
+ 3rd  GTEST_COLOR=1 ctest --test-dir build --output-on-failure -j12
