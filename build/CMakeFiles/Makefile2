@@ -160,7 +160,7 @@ external/googletest/googletest/clean: external/googletest/googletest/CMakeFiles/
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/my_test.dir/all
+src/all: src/CMakeFiles/TEMPLATECPP.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -168,7 +168,7 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/my_test.dir/clean
+src/clean: src/CMakeFiles/TEMPLATECPP.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -906,7 +906,7 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 external/googletest/googlemock/CMakeFiles/gmock.dir/all: external/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f external/googletest/googlemock/CMakeFiles/gmock.dir/build.make external/googletest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/googletest/googlemock/CMakeFiles/gmock.dir/build.make external/googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=1,2 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=3,4 "Built target gmock"
 .PHONY : external/googletest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -933,7 +933,7 @@ external/googletest/googlemock/CMakeFiles/gmock_main.dir/all: external/googletes
 external/googletest/googlemock/CMakeFiles/gmock_main.dir/all: external/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f external/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make external/googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make external/googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=5,6 "Built target gmock_main"
 .PHONY : external/googletest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -959,7 +959,7 @@ external/googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
 external/googletest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/googletest/googletest/CMakeFiles/gtest.dir/build.make external/googletest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/googletest/googletest/CMakeFiles/gtest.dir/build.make external/googletest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=5,6 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=7,8 "Built target gtest"
 .PHONY : external/googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -985,7 +985,7 @@ external/googletest/googletest/CMakeFiles/gtest.dir/clean:
 external/googletest/googletest/CMakeFiles/gtest_main.dir/all: external/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f external/googletest/googletest/CMakeFiles/gtest_main.dir/build.make external/googletest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/googletest/googletest/CMakeFiles/gtest_main.dir/build.make external/googletest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=7,8 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=9,10 "Built target gtest_main"
 .PHONY : external/googletest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1005,31 +1005,31 @@ external/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
 .PHONY : external/googletest/googletest/CMakeFiles/gtest_main.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/my_test.dir
+# Target rules for target src/CMakeFiles/TEMPLATECPP.dir
 
 # All Build rule for target.
-src/CMakeFiles/my_test.dir/all: external/googletest/googletest/CMakeFiles/gtest.dir/all
-src/CMakeFiles/my_test.dir/all: external/googletest/googletest/CMakeFiles/gtest_main.dir/all
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/my_test.dir/build.make src/CMakeFiles/my_test.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/my_test.dir/build.make src/CMakeFiles/my_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=9,10 "Built target my_test"
-.PHONY : src/CMakeFiles/my_test.dir/all
+src/CMakeFiles/TEMPLATECPP.dir/all: external/googletest/googletest/CMakeFiles/gtest.dir/all
+src/CMakeFiles/TEMPLATECPP.dir/all: external/googletest/googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=1,2 "Built target TEMPLATECPP"
+.PHONY : src/CMakeFiles/TEMPLATECPP.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/my_test.dir/rule: cmake_check_build_system
+src/CMakeFiles/TEMPLATECPP.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/my_test.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/TEMPLATECPP.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/my_test.dir/rule
+.PHONY : src/CMakeFiles/TEMPLATECPP.dir/rule
 
 # Convenience name for target.
-my_test: src/CMakeFiles/my_test.dir/rule
-.PHONY : my_test
+TEMPLATECPP: src/CMakeFiles/TEMPLATECPP.dir/rule
+.PHONY : TEMPLATECPP
 
 # clean rule for target.
-src/CMakeFiles/my_test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/my_test.dir/build.make src/CMakeFiles/my_test.dir/clean
-.PHONY : src/CMakeFiles/my_test.dir/clean
+src/CMakeFiles/TEMPLATECPP.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/clean
+.PHONY : src/CMakeFiles/TEMPLATECPP.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

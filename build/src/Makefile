@@ -172,42 +172,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/my_test.dir/rule:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/my_test.dir/rule
-.PHONY : src/CMakeFiles/my_test.dir/rule
+src/CMakeFiles/TEMPLATECPP.dir/rule:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/TEMPLATECPP.dir/rule
+.PHONY : src/CMakeFiles/TEMPLATECPP.dir/rule
 
 # Convenience name for target.
-my_test: src/CMakeFiles/my_test.dir/rule
-.PHONY : my_test
+TEMPLATECPP: src/CMakeFiles/TEMPLATECPP.dir/rule
+.PHONY : TEMPLATECPP
 
 # fast build rule for target.
-my_test/fast:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/my_test.dir/build.make src/CMakeFiles/my_test.dir/build
-.PHONY : my_test/fast
+TEMPLATECPP/fast:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/build
+.PHONY : TEMPLATECPP/fast
 
-my_test.o: my_test.cpp.o
-.PHONY : my_test.o
+GoogleTestDemo.o: GoogleTestDemo.cpp.o
+.PHONY : GoogleTestDemo.o
 
 # target to build an object file
-my_test.cpp.o:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/my_test.dir/build.make src/CMakeFiles/my_test.dir/my_test.cpp.o
-.PHONY : my_test.cpp.o
+GoogleTestDemo.cpp.o:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/GoogleTestDemo.cpp.o
+.PHONY : GoogleTestDemo.cpp.o
 
-my_test.i: my_test.cpp.i
-.PHONY : my_test.i
+GoogleTestDemo.i: GoogleTestDemo.cpp.i
+.PHONY : GoogleTestDemo.i
 
 # target to preprocess a source file
-my_test.cpp.i:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/my_test.dir/build.make src/CMakeFiles/my_test.dir/my_test.cpp.i
-.PHONY : my_test.cpp.i
+GoogleTestDemo.cpp.i:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/GoogleTestDemo.cpp.i
+.PHONY : GoogleTestDemo.cpp.i
 
-my_test.s: my_test.cpp.s
-.PHONY : my_test.s
+GoogleTestDemo.s: GoogleTestDemo.cpp.s
+.PHONY : GoogleTestDemo.s
 
 # target to generate assembly for a file
-my_test.cpp.s:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/my_test.dir/build.make src/CMakeFiles/my_test.dir/my_test.cpp.s
-.PHONY : my_test.cpp.s
+GoogleTestDemo.cpp.s:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/GoogleTestDemo.cpp.s
+.PHONY : GoogleTestDemo.cpp.s
 
 # Help Target
 help:
@@ -222,10 +222,10 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... my_test"
-	@echo "... my_test.o"
-	@echo "... my_test.i"
-	@echo "... my_test.s"
+	@echo "... TEMPLATECPP"
+	@echo "... GoogleTestDemo.o"
+	@echo "... GoogleTestDemo.i"
+	@echo "... GoogleTestDemo.s"
 .PHONY : help
 
 

@@ -588,17 +588,17 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
-# Target rules for targets named my_test
+# Target rules for targets named TEMPLATECPP
 
 # Build rule for target.
-my_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_test
-.PHONY : my_test
+TEMPLATECPP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TEMPLATECPP
+.PHONY : TEMPLATECPP
 
 # fast build rule for target.
-my_test/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/my_test.dir/build.make src/CMakeFiles/my_test.dir/build
-.PHONY : my_test/fast
+TEMPLATECPP/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/build
+.PHONY : TEMPLATECPP/fast
 
 # Help Target
 help:
@@ -641,11 +641,11 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
+	@echo "... TEMPLATECPP"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... my_test"
 .PHONY : help
 
 

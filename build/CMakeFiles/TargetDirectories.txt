@@ -58,7 +58,7 @@
 /home/vdc/dev/templateCpp/build/external/googletest/googletest/CMakeFiles/install.dir
 /home/vdc/dev/templateCpp/build/external/googletest/googletest/CMakeFiles/install/local.dir
 /home/vdc/dev/templateCpp/build/external/googletest/googletest/CMakeFiles/install/strip.dir
-/home/vdc/dev/templateCpp/build/src/CMakeFiles/my_test.dir
+/home/vdc/dev/templateCpp/build/src/CMakeFiles/TEMPLATECPP.dir
 /home/vdc/dev/templateCpp/build/src/CMakeFiles/test.dir
 /home/vdc/dev/templateCpp/build/src/CMakeFiles/edit_cache.dir
 /home/vdc/dev/templateCpp/build/src/CMakeFiles/rebuild_cache.dir

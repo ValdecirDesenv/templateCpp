@@ -8,12 +8,21 @@
 
 // Must include the gtest header to use the testing library
 #include <gtest/gtest.h>
+#include<stdio.h>
 
 namespace {
   // We will test this dummy function but you can test
   // any function from any library that you write too.
   int GetMeaningOfLife() {  return 42; }
 }
+
+using namespace std;
+int main(int argc, char const *argv[])
+{
+    cout << " Just running from test Demo at src folder ";
+    return 0;
+}
+
 
 // All tests must live within TEST* blocks
 // Inside of the TEST block is a standard C++ scope

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/TEMPLATECPP.dir/GoogleTestDemo.cpp.o -o TEMPLATECPP  ../lib/libgtest_main.a ../lib/libgtest.a 
