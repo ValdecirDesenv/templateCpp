@@ -5,8 +5,8 @@
  *      Author: vdc
  */
 
-#ifndef CH_ARRAYS_H_
-#define CH_ARRAYS_H_
+#ifndef CHALLENGES_ARRAYS_H_
+#define CHALLENGES_ARRAYS_H_
 #include <vector>
 
 class Ch_arrays {
@@ -21,4 +21,4 @@ public:
 
 };
 
-#endif /* CH_ARRAYS_H_ */
+#endif /* CHALLENGES_ARRAYS_H_ */

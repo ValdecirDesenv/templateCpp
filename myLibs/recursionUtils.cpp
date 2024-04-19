@@ -5,6 +5,7 @@
  *      Author: vdc
  */
 #include <iostream>
+#include <gtest/gtest.h>
 
 //==============================================================
 /**
@@ -97,4 +98,17 @@ int fibonacciSomeOfnTerms(int n, int  &sum){
 		return fib;
     }
     return -1;
+}
+
+// All tests must live within TEST* blocks
+// Inside of the TEST block is a standard C++ scope
+// TestTopic defines a topic of our test, e.g. NameOfFunctionTest
+// TrivialEquality represents the name of this particular test
+// It should be descriptive and readable to the user
+// TEST is a macro, i.e., preprocessor replaces it with some code
+TEST(Topic_fibonacci, TrivialEquality) {
+  // We can test for equality, inequality etc.
+  // If the equality does not hold, the test fails.
+  // EXPECT_* are macros, i.e., also replaced by the preprocessor.
+  EXPECT_EQ(fibonacci(4), 24);
 }

@@ -63,13 +63,13 @@ CMAKE_BINARY_DIR = /home/vdc/dev/templateCpp/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: external/googletest/all
 all: src/all
+all: external/googletest/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: external/googletest/preinstall
 preinstall: src/preinstall
+preinstall: external/googletest/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -101,8 +101,8 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
-clean: external/googletest/clean
 clean: src/clean
+clean: external/googletest/clean
 .PHONY : clean
 
 #=============================================================================
@@ -900,6 +900,33 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
+# Target rules for target src/CMakeFiles/TEMPLATECPP.dir
+
+# All Build rule for target.
+src/CMakeFiles/TEMPLATECPP.dir/all: external/googletest/googletest/CMakeFiles/gtest.dir/all
+src/CMakeFiles/TEMPLATECPP.dir/all: external/googletest/googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=1,2 "Built target TEMPLATECPP"
+.PHONY : src/CMakeFiles/TEMPLATECPP.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/TEMPLATECPP.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/TEMPLATECPP.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/TEMPLATECPP.dir/rule
+
+# Convenience name for target.
+TEMPLATECPP: src/CMakeFiles/TEMPLATECPP.dir/rule
+.PHONY : TEMPLATECPP
+
+# clean rule for target.
+src/CMakeFiles/TEMPLATECPP.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/clean
+.PHONY : src/CMakeFiles/TEMPLATECPP.dir/clean
+
+#=============================================================================
 # Target rules for target external/googletest/googlemock/CMakeFiles/gmock.dir
 
 # All Build rule for target.
@@ -1003,33 +1030,6 @@ gtest_main: external/googletest/googletest/CMakeFiles/gtest_main.dir/rule
 external/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
 	$(MAKE) $(MAKESILENT) -f external/googletest/googletest/CMakeFiles/gtest_main.dir/build.make external/googletest/googletest/CMakeFiles/gtest_main.dir/clean
 .PHONY : external/googletest/googletest/CMakeFiles/gtest_main.dir/clean
-
-#=============================================================================
-# Target rules for target src/CMakeFiles/TEMPLATECPP.dir
-
-# All Build rule for target.
-src/CMakeFiles/TEMPLATECPP.dir/all: external/googletest/googletest/CMakeFiles/gtest.dir/all
-src/CMakeFiles/TEMPLATECPP.dir/all: external/googletest/googletest/CMakeFiles/gtest_main.dir/all
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=1,2 "Built target TEMPLATECPP"
-.PHONY : src/CMakeFiles/TEMPLATECPP.dir/all
-
-# Build rule for subdir invocation for target.
-src/CMakeFiles/TEMPLATECPP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/TEMPLATECPP.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/TEMPLATECPP.dir/rule
-
-# Convenience name for target.
-TEMPLATECPP: src/CMakeFiles/TEMPLATECPP.dir/rule
-.PHONY : TEMPLATECPP
-
-# clean rule for target.
-src/CMakeFiles/TEMPLATECPP.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/clean
-.PHONY : src/CMakeFiles/TEMPLATECPP.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

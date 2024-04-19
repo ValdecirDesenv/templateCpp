@@ -34,7 +34,7 @@ Constraints:
 Only one valid answer exists.
  */
 
-#include <Ch_arrays.h>
+#include "Challenges_arrays.h"
 #include <vector>
 #include <unordered_map>
 #include <stack>

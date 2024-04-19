@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/vdc/dev/templateCpp/external/googletest/googletest/include -isystem /home/vdc/dev/templateCpp/external/googletest/googletest
+CXX_INCLUDES = -I/home/vdc/dev/templateCpp/myLibs -isystem /home/vdc/dev/templateCpp/external/googletest/googletest/include -isystem /home/vdc/dev/templateCpp/external/googletest/googletest
 
 CXX_FLAGS = 
 

@@ -8,6 +8,13 @@ project(
     )
 include(cmake/UpdateSubmodules.cmake)
 include(CTest)
-#add_subdirectory(external) # GTTESTS > external
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/external/googletest) # GTTESTS > external
+
+# Include directories
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/myLibs)
+
+# Add subdirectories
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src)  # Main Directoryls
+
+# GoogleTest
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/external/googletest) # GTTESTS > external
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmyLibs.a CMakeFiles/myLibs.dir/Challenges_arrays.cpp.o CMakeFiles/myLibs.dir/myCallendar.cpp.o CMakeFiles/myLibs.dir/recursionUtils.cpp.o
+/usr/bin/ranlib libmyLibs.a

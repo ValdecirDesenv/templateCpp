@@ -6,6 +6,7 @@ if (BUILD_TESTING)
         GoogleTestDemo.cpp
     )
     add_test(my_test.cpp ${PROJECT_NAME}) 
+    add_test(recursionUtils.cpp ${PROJECT_NAME}) 
     
     target_link_libraries(${PROJECT_NAME} GTest::gtest_main)
 

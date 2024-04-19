@@ -34,5 +34,9 @@ Compilation:
 ${CMAKE_CURRENT_SOURCE_DIR}
 
  1st  cmake -S. -B build
+	-S . -> where the SOURCE directory is: in this case -S (.) indicate the current dir, if -S ../../ means two dir back
+	-B . -> where the BUILD directory is: in this case -B dir , if -S xx/yy/ means two dir upfront
+
+
  2nd  cmake --build build -j 12
  3rd  GTEST_COLOR=1 ctest --test-dir build --output-on-failure -j12

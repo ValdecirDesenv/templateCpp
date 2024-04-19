@@ -17,8 +17,9 @@ void myCallendar() {
     // Define a char variable to store the date
     char date = 0;
     int x;
-    printf("sizeof int type %d bytes\n",sizeof(x));
-    printf("sizeof char type %d byte \n",sizeof(date));
+    // https://stackoverflow.com/questions/21128092/d-expects-argument-of-type-int-but-argument-2-has-type-long-unsigned-int
+    printf("sizeof int type %zu bytes\n",sizeof(x));
+    printf("sizeof char type %zu byte \n",sizeof(date));
     // Set the date to February 29, 2024
     int day = 29;    // 29th
     int month = 2;   // February

@@ -536,6 +536,19 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
+# Target rules for targets named TEMPLATECPP
+
+# Build rule for target.
+TEMPLATECPP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TEMPLATECPP
+.PHONY : TEMPLATECPP
+
+# fast build rule for target.
+TEMPLATECPP/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/build
+.PHONY : TEMPLATECPP/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -586,19 +599,6 @@ gtest_main: cmake_check_build_system
 gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f external/googletest/googletest/CMakeFiles/gtest_main.dir/build.make external/googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
-
-#=============================================================================
-# Target rules for targets named TEMPLATECPP
-
-# Build rule for target.
-TEMPLATECPP: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TEMPLATECPP
-.PHONY : TEMPLATECPP
-
-# fast build rule for target.
-TEMPLATECPP/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/build
-.PHONY : TEMPLATECPP/fast
 
 # Help Target
 help:
