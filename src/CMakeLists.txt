@@ -13,5 +13,6 @@ if (BUILD_TESTING)
     include(GoogleTest)
     # Finds all the Google tests associated with the executable
     gtest_discover_tests(${PROJECT_NAME})
+
 endif()
 

@@ -21,6 +21,7 @@ CMakeLists.txt: This is the configuration file for CMake, a popular build system
 	
 README.md: A Markdown file containing information about your project, including how to build, install, and use it.2
 
+https://cmake.org/cmake/help/book/mastering-cmake/chapter/Getting%20Started.html
 
 CMakeLists Explanation
   Main Folder:

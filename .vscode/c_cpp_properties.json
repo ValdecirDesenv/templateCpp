@@ -5,7 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/external/googletest",
-                "${workspaceFolder}/external/googletest/googletest"
+                "${workspaceFolder}/external/googletest/googletest/include/gtest/**"
             ],
             "defines": [],
             "cStandard": "c17",
