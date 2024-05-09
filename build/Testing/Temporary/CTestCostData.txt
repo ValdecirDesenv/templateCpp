@@ -1,7 +1,7 @@
-my_test_NOT_BUILT 0 0
-TestTopic.TrivialEquality 15 0.00599053
-TestTopic.MoreEqualityTests 15 0.00510702
-PlayerTest.PlayerLevelStartZero 10 0.00504616
-my_test.cpp 3 0.00390995
-recursionUtils.cpp 1 0.00327843
+TEMPLATECPP_NOT_BUILT 0 0
+GoogleTestDemo.cpp 0 0
+recursionUtils.cpp 0 0
 ---
+TEMPLATECPP_NOT_BUILT
+GoogleTestDemo.cpp
+recursionUtils.cpp

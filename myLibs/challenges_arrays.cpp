@@ -34,7 +34,7 @@ Constraints:
 Only one valid answer exists.
  */
 
-#include "Challenges_arrays.h"
+#include "challenges_arrays.h"
 #include <vector>
 #include <unordered_map>
 #include <stack>
@@ -177,9 +177,8 @@ int Ch_arrays::maxProfit(std::vector<int>& prices) {
 //		}
 //	}
 //	return profit;
-//}
-
-// Make use of >>> #include <algorithm> // For std::max and std::min
+//}#include <iostream>
+#include <gtest/gtest.h>hm> // For std::max and std::min
 /// @param prices
 /// @return
 /// This optimized implementation has a time complexity of O(n),

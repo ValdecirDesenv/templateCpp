@@ -8,12 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vdc/dev/templateCpp/src/GoogleTestDemo.cpp" "src/CMakeFiles/TEMPLATECPP.dir/GoogleTestDemo.cpp.o" "gcc" "src/CMakeFiles/TEMPLATECPP.dir/GoogleTestDemo.cpp.o.d"
+  "/home/vdc/dev/templateCpp/src/my_test.cpp" "src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o" "gcc" "src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/vdc/dev/templateCpp/build/external/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/vdc/dev/templateCpp/build/myLibs/CMakeFiles/myLibs.dir/DependInfo.cmake"
   "/home/vdc/dev/templateCpp/build/external/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 

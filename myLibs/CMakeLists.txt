@@ -2,9 +2,10 @@
 # add them here.
 add_library(
     myLibs
-    Challenges_arrays.cpp 
+    challenges_arrays.cpp 
     myCallendar.cpp
     recursionUtils.cpp
+    regularLoops.cpp
 )
 
 # Include directories

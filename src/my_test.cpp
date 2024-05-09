@@ -8,8 +8,8 @@
 
 // Must include the gtest header to use the testing library
 #include <gtest/gtest.h>
-#include<stdio.h>
-
+#include <stdio.h>
+#include "myLibs/recursionUtils.h"
 namespace {
   // We will test this dummy function but you can test
   // any function from any library that you write too.
@@ -19,7 +19,12 @@ namespace {
 using namespace std;
 int main(int argc, char const *argv[])
 {
+    //Regular_loops loops = new Regular_loops();
+    int value = multiply(13, 10);
     cout << " Just running from test Demo at src folder ";
+    
+
+    
     return 0;
 }
 

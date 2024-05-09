@@ -21,6 +21,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../external/googletest/googletest/cmake/gtest.pc.in"
   "../external/googletest/googletest/cmake/gtest_main.pc.in"
   "../external/googletest/googletest/cmake/internal_utils.cmake"
+  "../myLibs/CMakeLists.txt"
   "../src/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
@@ -79,6 +80,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "external/googletest/googletest/generated/gtest.pc"
   "external/googletest/googletest/generated/gtest_main.pc"
   "external/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "myLibs/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -116,4 +118,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "external/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "external/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "external/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "myLibs/CMakeFiles/myLibs.dir/DependInfo.cmake"
   )

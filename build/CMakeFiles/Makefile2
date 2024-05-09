@@ -65,11 +65,13 @@ CMAKE_BINARY_DIR = /home/vdc/dev/templateCpp/build
 # The main recursive "all" target.
 all: src/all
 all: external/googletest/all
+all: myLibs/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: src/preinstall
 preinstall: external/googletest/preinstall
+preinstall: myLibs/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -103,6 +105,7 @@ clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
 clean: src/clean
 clean: external/googletest/clean
+clean: myLibs/clean
 .PHONY : clean
 
 #=============================================================================
@@ -155,6 +158,21 @@ external/googletest/googletest/preinstall:
 external/googletest/googletest/clean: external/googletest/googletest/CMakeFiles/gtest.dir/clean
 external/googletest/googletest/clean: external/googletest/googletest/CMakeFiles/gtest_main.dir/clean
 .PHONY : external/googletest/googletest/clean
+
+#=============================================================================
+# Directory level rules for directory myLibs
+
+# Recursive "all" directory target.
+myLibs/all: myLibs/CMakeFiles/myLibs.dir/all
+.PHONY : myLibs/all
+
+# Recursive "preinstall" directory target.
+myLibs/preinstall:
+.PHONY : myLibs/preinstall
+
+# Recursive "clean" directory target.
+myLibs/clean: myLibs/CMakeFiles/myLibs.dir/clean
+.PHONY : myLibs/clean
 
 #=============================================================================
 # Directory level rules for directory src
@@ -905,6 +923,7 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 # All Build rule for target.
 src/CMakeFiles/TEMPLATECPP.dir/all: external/googletest/googletest/CMakeFiles/gtest.dir/all
 src/CMakeFiles/TEMPLATECPP.dir/all: external/googletest/googletest/CMakeFiles/gtest_main.dir/all
+src/CMakeFiles/TEMPLATECPP.dir/all: myLibs/CMakeFiles/myLibs.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=1,2 "Built target TEMPLATECPP"
@@ -912,7 +931,7 @@ src/CMakeFiles/TEMPLATECPP.dir/all: external/googletest/googletest/CMakeFiles/gt
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/TEMPLATECPP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/TEMPLATECPP.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/TEMPLATECPP.dir/rule
@@ -1030,6 +1049,32 @@ gtest_main: external/googletest/googletest/CMakeFiles/gtest_main.dir/rule
 external/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
 	$(MAKE) $(MAKESILENT) -f external/googletest/googletest/CMakeFiles/gtest_main.dir/build.make external/googletest/googletest/CMakeFiles/gtest_main.dir/clean
 .PHONY : external/googletest/googletest/CMakeFiles/gtest_main.dir/clean
+
+#=============================================================================
+# Target rules for target myLibs/CMakeFiles/myLibs.dir
+
+# All Build rule for target.
+myLibs/CMakeFiles/myLibs.dir/all:
+	$(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/depend
+	$(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=11,12,13,14,15 "Built target myLibs"
+.PHONY : myLibs/CMakeFiles/myLibs.dir/all
+
+# Build rule for subdir invocation for target.
+myLibs/CMakeFiles/myLibs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myLibs/CMakeFiles/myLibs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 0
+.PHONY : myLibs/CMakeFiles/myLibs.dir/rule
+
+# Convenience name for target.
+myLibs: myLibs/CMakeFiles/myLibs.dir/rule
+.PHONY : myLibs
+
+# clean rule for target.
+myLibs/CMakeFiles/myLibs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/clean
+.PHONY : myLibs/CMakeFiles/myLibs.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

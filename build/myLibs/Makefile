@@ -185,29 +185,29 @@ myLibs/fast:
 	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/build
 .PHONY : myLibs/fast
 
-Challenges_arrays.o: Challenges_arrays.cpp.o
-.PHONY : Challenges_arrays.o
+challenges_arrays.o: challenges_arrays.cpp.o
+.PHONY : challenges_arrays.o
 
 # target to build an object file
-Challenges_arrays.cpp.o:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/Challenges_arrays.cpp.o
-.PHONY : Challenges_arrays.cpp.o
+challenges_arrays.cpp.o:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.o
+.PHONY : challenges_arrays.cpp.o
 
-Challenges_arrays.i: Challenges_arrays.cpp.i
-.PHONY : Challenges_arrays.i
+challenges_arrays.i: challenges_arrays.cpp.i
+.PHONY : challenges_arrays.i
 
 # target to preprocess a source file
-Challenges_arrays.cpp.i:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/Challenges_arrays.cpp.i
-.PHONY : Challenges_arrays.cpp.i
+challenges_arrays.cpp.i:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.i
+.PHONY : challenges_arrays.cpp.i
 
-Challenges_arrays.s: Challenges_arrays.cpp.s
-.PHONY : Challenges_arrays.s
+challenges_arrays.s: challenges_arrays.cpp.s
+.PHONY : challenges_arrays.s
 
 # target to generate assembly for a file
-Challenges_arrays.cpp.s:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/Challenges_arrays.cpp.s
-.PHONY : Challenges_arrays.cpp.s
+challenges_arrays.cpp.s:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.s
+.PHONY : challenges_arrays.cpp.s
 
 myCallendar.o: myCallendar.cpp.o
 .PHONY : myCallendar.o
@@ -257,6 +257,30 @@ recursionUtils.cpp.s:
 	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.s
 .PHONY : recursionUtils.cpp.s
 
+regularLoops.o: regularLoops.cpp.o
+.PHONY : regularLoops.o
+
+# target to build an object file
+regularLoops.cpp.o:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.o
+.PHONY : regularLoops.cpp.o
+
+regularLoops.i: regularLoops.cpp.i
+.PHONY : regularLoops.i
+
+# target to preprocess a source file
+regularLoops.cpp.i:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.i
+.PHONY : regularLoops.cpp.i
+
+regularLoops.s: regularLoops.cpp.s
+.PHONY : regularLoops.s
+
+# target to generate assembly for a file
+regularLoops.cpp.s:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.s
+.PHONY : regularLoops.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -271,15 +295,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... myLibs"
-	@echo "... Challenges_arrays.o"
-	@echo "... Challenges_arrays.i"
-	@echo "... Challenges_arrays.s"
+	@echo "... challenges_arrays.o"
+	@echo "... challenges_arrays.i"
+	@echo "... challenges_arrays.s"
 	@echo "... myCallendar.o"
 	@echo "... myCallendar.i"
 	@echo "... myCallendar.s"
 	@echo "... recursionUtils.o"
 	@echo "... recursionUtils.i"
 	@echo "... recursionUtils.s"
+	@echo "... regularLoops.o"
+	@echo "... regularLoops.i"
+	@echo "... regularLoops.s"
 .PHONY : help
 
 

@@ -304,15 +304,6 @@ GIT_EXECUTABLE:FILEPATH=/usr/bin/git
 // added to the build.
 GTEST_HAS_ABSL:BOOL=OFF
 
-//Value Computed by CMake
-GTTESTS_BINARY_DIR:STATIC=/home/vdc/dev/templateCpp/build
-
-//Value Computed by CMake
-GTTESTS_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-GTTESTS_SOURCE_DIR:STATIC=/home/vdc/dev/templateCpp
-
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
@@ -530,7 +521,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

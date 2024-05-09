@@ -16,8 +16,8 @@ class Test {
     }
 };
 
-int main(){
-  auto t = std::make_unique<Test>("Terminal Root");
-  std::cout << t->getName() << '\n';
-  return 0;
-}
+// int main(){
+//   auto t = std::make_unique<Test>("Terminal Root");
+//   std::cout << t->getName() << '\n';
+//   return 0;
+// }

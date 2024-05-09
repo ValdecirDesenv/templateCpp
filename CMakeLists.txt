@@ -18,3 +18,4 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src)  # Main Directoryls
 # GoogleTest
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/external/googletest) # GTTESTS > external
 
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}//myLibs) # GTTESTS > external

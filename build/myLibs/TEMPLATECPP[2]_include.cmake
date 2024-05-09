@@ -1,5 +1,0 @@
-if(EXISTS "/home/vdc/dev/templateCpp/build/myLibs/TEMPLATECPP[2]_tests.cmake")
-  include("/home/vdc/dev/templateCpp/build/myLibs/TEMPLATECPP[2]_tests.cmake")
-else()
-  add_test(TEMPLATECPP_NOT_BUILT TEMPLATECPP_NOT_BUILT)
-endif()

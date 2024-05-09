@@ -185,29 +185,29 @@ TEMPLATECPP/fast:
 	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/build
 .PHONY : TEMPLATECPP/fast
 
-GoogleTestDemo.o: GoogleTestDemo.cpp.o
-.PHONY : GoogleTestDemo.o
+my_test.o: my_test.cpp.o
+.PHONY : my_test.o
 
 # target to build an object file
-GoogleTestDemo.cpp.o:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/GoogleTestDemo.cpp.o
-.PHONY : GoogleTestDemo.cpp.o
+my_test.cpp.o:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o
+.PHONY : my_test.cpp.o
 
-GoogleTestDemo.i: GoogleTestDemo.cpp.i
-.PHONY : GoogleTestDemo.i
+my_test.i: my_test.cpp.i
+.PHONY : my_test.i
 
 # target to preprocess a source file
-GoogleTestDemo.cpp.i:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/GoogleTestDemo.cpp.i
-.PHONY : GoogleTestDemo.cpp.i
+my_test.cpp.i:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.i
+.PHONY : my_test.cpp.i
 
-GoogleTestDemo.s: GoogleTestDemo.cpp.s
-.PHONY : GoogleTestDemo.s
+my_test.s: my_test.cpp.s
+.PHONY : my_test.s
 
 # target to generate assembly for a file
-GoogleTestDemo.cpp.s:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/GoogleTestDemo.cpp.s
-.PHONY : GoogleTestDemo.cpp.s
+my_test.cpp.s:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.s
+.PHONY : my_test.cpp.s
 
 # Help Target
 help:
@@ -223,9 +223,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... TEMPLATECPP"
-	@echo "... GoogleTestDemo.o"
-	@echo "... GoogleTestDemo.i"
-	@echo "... GoogleTestDemo.s"
+	@echo "... my_test.o"
+	@echo "... my_test.i"
+	@echo "... my_test.s"
 .PHONY : help
 
 

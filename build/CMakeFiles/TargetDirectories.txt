@@ -66,3 +66,11 @@
 /home/vdc/dev/templateCpp/build/external/googletest/googletest/CMakeFiles/install.dir
 /home/vdc/dev/templateCpp/build/external/googletest/googletest/CMakeFiles/install/local.dir
 /home/vdc/dev/templateCpp/build/external/googletest/googletest/CMakeFiles/install/strip.dir
+/home/vdc/dev/templateCpp/build/myLibs/CMakeFiles/myLibs.dir
+/home/vdc/dev/templateCpp/build/myLibs/CMakeFiles/test.dir
+/home/vdc/dev/templateCpp/build/myLibs/CMakeFiles/edit_cache.dir
+/home/vdc/dev/templateCpp/build/myLibs/CMakeFiles/rebuild_cache.dir
+/home/vdc/dev/templateCpp/build/myLibs/CMakeFiles/list_install_components.dir
+/home/vdc/dev/templateCpp/build/myLibs/CMakeFiles/install.dir
+/home/vdc/dev/templateCpp/build/myLibs/CMakeFiles/install/local.dir
+/home/vdc/dev/templateCpp/build/myLibs/CMakeFiles/install/strip.dir
