@@ -1,5 +1,5 @@
 /**
- * This code was just done to test the checkcpp static analizys 
+ * This code was just done to test the checkcpp static analysis 
  * https://terminalroot.com/how-to-do-static-analysis-of-c-cpp-with-cppcheck/
 */
 #include <iostream>
