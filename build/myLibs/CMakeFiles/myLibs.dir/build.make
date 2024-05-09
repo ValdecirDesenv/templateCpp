@@ -73,75 +73,43 @@ myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.o: myLibs/CMakeFiles/myLibs.d
 myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.o: ../myLibs/challenges_arrays.cpp
 myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.o: myLibs/CMakeFiles/myLibs.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.o"
-	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.o -MF CMakeFiles/myLibs.dir/challenges_arrays.cpp.o.d -o CMakeFiles/myLibs.dir/challenges_arrays.cpp.o -c /home/vdc/dev/templateCpp/myLibs/challenges_arrays.cpp
+	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.o -MF CMakeFiles/myLibs.dir/challenges_arrays.cpp.o.d -o CMakeFiles/myLibs.dir/challenges_arrays.cpp.o -c /home/vdc/dev/templateCpp/myLibs/challenges_arrays.cpp
 
 myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myLibs.dir/challenges_arrays.cpp.i"
-	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vdc/dev/templateCpp/myLibs/challenges_arrays.cpp > CMakeFiles/myLibs.dir/challenges_arrays.cpp.i
+	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vdc/dev/templateCpp/myLibs/challenges_arrays.cpp > CMakeFiles/myLibs.dir/challenges_arrays.cpp.i
 
 myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myLibs.dir/challenges_arrays.cpp.s"
-	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vdc/dev/templateCpp/myLibs/challenges_arrays.cpp -o CMakeFiles/myLibs.dir/challenges_arrays.cpp.s
+	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vdc/dev/templateCpp/myLibs/challenges_arrays.cpp -o CMakeFiles/myLibs.dir/challenges_arrays.cpp.s
 
 myLibs/CMakeFiles/myLibs.dir/myCallendar.cpp.o: myLibs/CMakeFiles/myLibs.dir/flags.make
 myLibs/CMakeFiles/myLibs.dir/myCallendar.cpp.o: ../myLibs/myCallendar.cpp
 myLibs/CMakeFiles/myLibs.dir/myCallendar.cpp.o: myLibs/CMakeFiles/myLibs.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object myLibs/CMakeFiles/myLibs.dir/myCallendar.cpp.o"
-	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT myLibs/CMakeFiles/myLibs.dir/myCallendar.cpp.o -MF CMakeFiles/myLibs.dir/myCallendar.cpp.o.d -o CMakeFiles/myLibs.dir/myCallendar.cpp.o -c /home/vdc/dev/templateCpp/myLibs/myCallendar.cpp
+	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT myLibs/CMakeFiles/myLibs.dir/myCallendar.cpp.o -MF CMakeFiles/myLibs.dir/myCallendar.cpp.o.d -o CMakeFiles/myLibs.dir/myCallendar.cpp.o -c /home/vdc/dev/templateCpp/myLibs/myCallendar.cpp
 
 myLibs/CMakeFiles/myLibs.dir/myCallendar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myLibs.dir/myCallendar.cpp.i"
-	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vdc/dev/templateCpp/myLibs/myCallendar.cpp > CMakeFiles/myLibs.dir/myCallendar.cpp.i
+	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vdc/dev/templateCpp/myLibs/myCallendar.cpp > CMakeFiles/myLibs.dir/myCallendar.cpp.i
 
 myLibs/CMakeFiles/myLibs.dir/myCallendar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myLibs.dir/myCallendar.cpp.s"
-	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vdc/dev/templateCpp/myLibs/myCallendar.cpp -o CMakeFiles/myLibs.dir/myCallendar.cpp.s
-
-myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.o: myLibs/CMakeFiles/myLibs.dir/flags.make
-myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.o: ../myLibs/recursionUtils.cpp
-myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.o: myLibs/CMakeFiles/myLibs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.o"
-	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.o -MF CMakeFiles/myLibs.dir/recursionUtils.cpp.o.d -o CMakeFiles/myLibs.dir/recursionUtils.cpp.o -c /home/vdc/dev/templateCpp/myLibs/recursionUtils.cpp
-
-myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myLibs.dir/recursionUtils.cpp.i"
-	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vdc/dev/templateCpp/myLibs/recursionUtils.cpp > CMakeFiles/myLibs.dir/recursionUtils.cpp.i
-
-myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myLibs.dir/recursionUtils.cpp.s"
-	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vdc/dev/templateCpp/myLibs/recursionUtils.cpp -o CMakeFiles/myLibs.dir/recursionUtils.cpp.s
-
-myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.o: myLibs/CMakeFiles/myLibs.dir/flags.make
-myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.o: ../myLibs/regularLoops.cpp
-myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.o: myLibs/CMakeFiles/myLibs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.o"
-	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.o -MF CMakeFiles/myLibs.dir/regularLoops.cpp.o.d -o CMakeFiles/myLibs.dir/regularLoops.cpp.o -c /home/vdc/dev/templateCpp/myLibs/regularLoops.cpp
-
-myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myLibs.dir/regularLoops.cpp.i"
-	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vdc/dev/templateCpp/myLibs/regularLoops.cpp > CMakeFiles/myLibs.dir/regularLoops.cpp.i
-
-myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myLibs.dir/regularLoops.cpp.s"
-	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vdc/dev/templateCpp/myLibs/regularLoops.cpp -o CMakeFiles/myLibs.dir/regularLoops.cpp.s
+	cd /home/vdc/dev/templateCpp/build/myLibs && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vdc/dev/templateCpp/myLibs/myCallendar.cpp -o CMakeFiles/myLibs.dir/myCallendar.cpp.s
 
 # Object files for target myLibs
 myLibs_OBJECTS = \
 "CMakeFiles/myLibs.dir/challenges_arrays.cpp.o" \
-"CMakeFiles/myLibs.dir/myCallendar.cpp.o" \
-"CMakeFiles/myLibs.dir/recursionUtils.cpp.o" \
-"CMakeFiles/myLibs.dir/regularLoops.cpp.o"
+"CMakeFiles/myLibs.dir/myCallendar.cpp.o"
 
 # External object files for target myLibs
 myLibs_EXTERNAL_OBJECTS =
 
 myLibs/libmyLibs.a: myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.o
 myLibs/libmyLibs.a: myLibs/CMakeFiles/myLibs.dir/myCallendar.cpp.o
-myLibs/libmyLibs.a: myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.o
-myLibs/libmyLibs.a: myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.o
 myLibs/libmyLibs.a: myLibs/CMakeFiles/myLibs.dir/build.make
 myLibs/libmyLibs.a: myLibs/CMakeFiles/myLibs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libmyLibs.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libmyLibs.a"
 	cd /home/vdc/dev/templateCpp/build/myLibs && $(CMAKE_COMMAND) -P CMakeFiles/myLibs.dir/cmake_clean_target.cmake
 	cd /home/vdc/dev/templateCpp/build/myLibs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myLibs.dir/link.txt --verbose=$(VERBOSE)
 

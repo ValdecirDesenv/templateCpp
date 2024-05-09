@@ -69,31 +69,33 @@ include src/CMakeFiles/TEMPLATECPP.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/TEMPLATECPP.dir/flags.make
 
-src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o: src/CMakeFiles/TEMPLATECPP.dir/flags.make
-src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o: ../src/my_test.cpp
-src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o: src/CMakeFiles/TEMPLATECPP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o"
-	cd /home/vdc/dev/templateCpp/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o -MF CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o.d -o CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o -c /home/vdc/dev/templateCpp/src/my_test.cpp
+src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o: src/CMakeFiles/TEMPLATECPP.dir/flags.make
+src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o: ../src/main.cpp
+src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o: src/CMakeFiles/TEMPLATECPP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o"
+	cd /home/vdc/dev/templateCpp/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o -MF CMakeFiles/TEMPLATECPP.dir/main.cpp.o.d -o CMakeFiles/TEMPLATECPP.dir/main.cpp.o -c /home/vdc/dev/templateCpp/src/main.cpp
 
-src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TEMPLATECPP.dir/my_test.cpp.i"
-	cd /home/vdc/dev/templateCpp/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vdc/dev/templateCpp/src/my_test.cpp > CMakeFiles/TEMPLATECPP.dir/my_test.cpp.i
+src/CMakeFiles/TEMPLATECPP.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TEMPLATECPP.dir/main.cpp.i"
+	cd /home/vdc/dev/templateCpp/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vdc/dev/templateCpp/src/main.cpp > CMakeFiles/TEMPLATECPP.dir/main.cpp.i
 
-src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TEMPLATECPP.dir/my_test.cpp.s"
-	cd /home/vdc/dev/templateCpp/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vdc/dev/templateCpp/src/my_test.cpp -o CMakeFiles/TEMPLATECPP.dir/my_test.cpp.s
+src/CMakeFiles/TEMPLATECPP.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TEMPLATECPP.dir/main.cpp.s"
+	cd /home/vdc/dev/templateCpp/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vdc/dev/templateCpp/src/main.cpp -o CMakeFiles/TEMPLATECPP.dir/main.cpp.s
 
 # Object files for target TEMPLATECPP
 TEMPLATECPP_OBJECTS = \
-"CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o"
+"CMakeFiles/TEMPLATECPP.dir/main.cpp.o"
 
 # External object files for target TEMPLATECPP
 TEMPLATECPP_EXTERNAL_OBJECTS =
 
-src/TEMPLATECPP: src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o
+src/TEMPLATECPP: src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o
 src/TEMPLATECPP: src/CMakeFiles/TEMPLATECPP.dir/build.make
 src/TEMPLATECPP: lib/libgtest_main.a
 src/TEMPLATECPP: myLibs/libmyLibs.a
+src/TEMPLATECPP: src/db/libdb.a
+src/TEMPLATECPP: src/engine/libengine.a
 src/TEMPLATECPP: lib/libgtest.a
 src/TEMPLATECPP: src/CMakeFiles/TEMPLATECPP.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TEMPLATECPP"

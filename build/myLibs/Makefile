@@ -233,54 +233,6 @@ myCallendar.cpp.s:
 	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/myCallendar.cpp.s
 .PHONY : myCallendar.cpp.s
 
-recursionUtils.o: recursionUtils.cpp.o
-.PHONY : recursionUtils.o
-
-# target to build an object file
-recursionUtils.cpp.o:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.o
-.PHONY : recursionUtils.cpp.o
-
-recursionUtils.i: recursionUtils.cpp.i
-.PHONY : recursionUtils.i
-
-# target to preprocess a source file
-recursionUtils.cpp.i:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.i
-.PHONY : recursionUtils.cpp.i
-
-recursionUtils.s: recursionUtils.cpp.s
-.PHONY : recursionUtils.s
-
-# target to generate assembly for a file
-recursionUtils.cpp.s:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.s
-.PHONY : recursionUtils.cpp.s
-
-regularLoops.o: regularLoops.cpp.o
-.PHONY : regularLoops.o
-
-# target to build an object file
-regularLoops.cpp.o:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.o
-.PHONY : regularLoops.cpp.o
-
-regularLoops.i: regularLoops.cpp.i
-.PHONY : regularLoops.i
-
-# target to preprocess a source file
-regularLoops.cpp.i:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.i
-.PHONY : regularLoops.cpp.i
-
-regularLoops.s: regularLoops.cpp.s
-.PHONY : regularLoops.s
-
-# target to generate assembly for a file
-regularLoops.cpp.s:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.s
-.PHONY : regularLoops.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -301,12 +253,6 @@ help:
 	@echo "... myCallendar.o"
 	@echo "... myCallendar.i"
 	@echo "... myCallendar.s"
-	@echo "... recursionUtils.o"
-	@echo "... recursionUtils.i"
-	@echo "... recursionUtils.s"
-	@echo "... regularLoops.o"
-	@echo "... regularLoops.i"
-	@echo "... regularLoops.s"
 .PHONY : help
 
 

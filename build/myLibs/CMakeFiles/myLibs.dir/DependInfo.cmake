@@ -10,8 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/vdc/dev/templateCpp/myLibs/challenges_arrays.cpp" "myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.o" "gcc" "myLibs/CMakeFiles/myLibs.dir/challenges_arrays.cpp.o.d"
   "/home/vdc/dev/templateCpp/myLibs/myCallendar.cpp" "myLibs/CMakeFiles/myLibs.dir/myCallendar.cpp.o" "gcc" "myLibs/CMakeFiles/myLibs.dir/myCallendar.cpp.o.d"
-  "/home/vdc/dev/templateCpp/myLibs/recursionUtils.cpp" "myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.o" "gcc" "myLibs/CMakeFiles/myLibs.dir/recursionUtils.cpp.o.d"
-  "/home/vdc/dev/templateCpp/myLibs/regularLoops.cpp" "myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.o" "gcc" "myLibs/CMakeFiles/myLibs.dir/regularLoops.cpp.o.d"
   )
 
 # Targets to which this target links.

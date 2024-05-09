@@ -549,6 +549,45 @@ TEMPLATECPP/fast:
 .PHONY : TEMPLATECPP/fast
 
 #=============================================================================
+# Target rules for targets named myLibs
+
+# Build rule for target.
+myLibs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myLibs
+.PHONY : myLibs
+
+# fast build rule for target.
+myLibs/fast:
+	$(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/build
+.PHONY : myLibs/fast
+
+#=============================================================================
+# Target rules for targets named db
+
+# Build rule for target.
+db: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 db
+.PHONY : db
+
+# fast build rule for target.
+db/fast:
+	$(MAKE) $(MAKESILENT) -f src/db/CMakeFiles/db.dir/build.make src/db/CMakeFiles/db.dir/build
+.PHONY : db/fast
+
+#=============================================================================
+# Target rules for targets named engine
+
+# Build rule for target.
+engine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine
+.PHONY : engine
+
+# fast build rule for target.
+engine/fast:
+	$(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/build
+.PHONY : engine/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -600,19 +639,6 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f external/googletest/googletest/CMakeFiles/gtest_main.dir/build.make external/googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-#=============================================================================
-# Target rules for targets named myLibs
-
-# Build rule for target.
-myLibs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myLibs
-.PHONY : myLibs
-
-# fast build rule for target.
-myLibs/fast:
-	$(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/build
-.PHONY : myLibs/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -655,6 +681,8 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... TEMPLATECPP"
+	@echo "... db"
+	@echo "... engine"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"

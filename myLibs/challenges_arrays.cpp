@@ -178,7 +178,6 @@ int Ch_arrays::maxProfit(std::vector<int>& prices) {
 //	}
 //	return profit;
 //}#include <iostream>
-#include <gtest/gtest.h>hm> // For std::max and std::min
 /// @param prices
 /// @return
 /// This optimized implementation has a time complexity of O(n),

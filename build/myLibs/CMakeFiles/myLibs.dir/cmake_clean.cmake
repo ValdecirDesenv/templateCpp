@@ -3,10 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/myLibs.dir/challenges_arrays.cpp.o.d"
   "CMakeFiles/myLibs.dir/myCallendar.cpp.o"
   "CMakeFiles/myLibs.dir/myCallendar.cpp.o.d"
-  "CMakeFiles/myLibs.dir/recursionUtils.cpp.o"
-  "CMakeFiles/myLibs.dir/recursionUtils.cpp.o.d"
-  "CMakeFiles/myLibs.dir/regularLoops.cpp.o"
-  "CMakeFiles/myLibs.dir/regularLoops.cpp.o.d"
   "libmyLibs.a"
   "libmyLibs.pdb"
 )

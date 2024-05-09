@@ -1,0 +1,1 @@
+set( TEMPLATECPP_TESTS)

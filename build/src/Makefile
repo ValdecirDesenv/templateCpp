@@ -185,29 +185,29 @@ TEMPLATECPP/fast:
 	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/build
 .PHONY : TEMPLATECPP/fast
 
-my_test.o: my_test.cpp.o
-.PHONY : my_test.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-my_test.cpp.o:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o
-.PHONY : my_test.cpp.o
+main.cpp.o:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-my_test.i: my_test.cpp.i
-.PHONY : my_test.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-my_test.cpp.i:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.i
-.PHONY : my_test.cpp.i
+main.cpp.i:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-my_test.s: my_test.cpp.s
-.PHONY : my_test.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-my_test.cpp.s:
-	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/my_test.cpp.s
-.PHONY : my_test.cpp.s
+main.cpp.s:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -223,9 +223,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... TEMPLATECPP"
-	@echo "... my_test.o"
-	@echo "... my_test.i"
-	@echo "... my_test.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

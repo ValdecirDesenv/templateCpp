@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/vdc/dev/templateCpp/build/src",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/db -I/home/vdc/dev/templateCpp/engine -I/home/vdc/dev/templateCpp/src/db -I/home/vdc/dev/templateCpp/src/engine -isystem /home/vdc/dev/templateCpp/external/googletest/googletest/include -isystem /home/vdc/dev/templateCpp/external/googletest/googletest -g -o CMakeFiles/TEMPLATECPP.dir/main.cpp.o -c /home/vdc/dev/templateCpp/src/main.cpp",
+  "file": "/home/vdc/dev/templateCpp/src/main.cpp"
+},
+{
+  "directory": "/home/vdc/dev/templateCpp/build/myLibs",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -g -o CMakeFiles/myLibs.dir/challenges_arrays.cpp.o -c /home/vdc/dev/templateCpp/myLibs/challenges_arrays.cpp",
+  "file": "/home/vdc/dev/templateCpp/myLibs/challenges_arrays.cpp"
+},
+{
+  "directory": "/home/vdc/dev/templateCpp/build/myLibs",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -g -o CMakeFiles/myLibs.dir/myCallendar.cpp.o -c /home/vdc/dev/templateCpp/myLibs/myCallendar.cpp",
+  "file": "/home/vdc/dev/templateCpp/myLibs/myCallendar.cpp"
+},
+{
+  "directory": "/home/vdc/dev/templateCpp/build/src/db",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/src/db -g -o CMakeFiles/db.dir/recursionUtils.cpp.o -c /home/vdc/dev/templateCpp/src/db/recursionUtils.cpp",
+  "file": "/home/vdc/dev/templateCpp/src/db/recursionUtils.cpp"
+},
+{
+  "directory": "/home/vdc/dev/templateCpp/build/src/engine",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/src/engine -g -o CMakeFiles/engine.dir/regularLoops.cpp.o -c /home/vdc/dev/templateCpp/src/engine/regularLoops.cpp",
+  "file": "/home/vdc/dev/templateCpp/src/engine/regularLoops.cpp"
+},
+{
+  "directory": "/home/vdc/dev/templateCpp/build/src/engine",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/src/engine -g -o CMakeFiles/engine.dir/MyClass.cpp.o -c /home/vdc/dev/templateCpp/src/engine/MyClass.cpp",
+  "file": "/home/vdc/dev/templateCpp/src/engine/MyClass.cpp"
+},
+{
+  "directory": "/home/vdc/dev/templateCpp/build/external/googletest/googlemock",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/external/googletest/googlemock/include -I/home/vdc/dev/templateCpp/external/googletest/googlemock -isystem /home/vdc/dev/templateCpp/external/googletest/googletest/include -isystem /home/vdc/dev/templateCpp/external/googletest/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/vdc/dev/templateCpp/external/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/vdc/dev/templateCpp/external/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/vdc/dev/templateCpp/build/external/googletest/googlemock",
+  "command": "/usr/bin/g++  -isystem /home/vdc/dev/templateCpp/myLibs -isystem /home/vdc/dev/templateCpp/external/googletest/googlemock/include -isystem /home/vdc/dev/templateCpp/external/googletest/googlemock -isystem /home/vdc/dev/templateCpp/external/googletest/googletest/include -isystem /home/vdc/dev/templateCpp/external/googletest/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/vdc/dev/templateCpp/external/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/vdc/dev/templateCpp/external/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/vdc/dev/templateCpp/build/external/googletest/googletest",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/external/googletest/googletest/include -I/home/vdc/dev/templateCpp/external/googletest/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/vdc/dev/templateCpp/external/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/vdc/dev/templateCpp/external/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/vdc/dev/templateCpp/build/external/googletest/googletest",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -isystem /home/vdc/dev/templateCpp/external/googletest/googletest/include -isystem /home/vdc/dev/templateCpp/external/googletest/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/vdc/dev/templateCpp/external/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/vdc/dev/templateCpp/external/googletest/googletest/src/gtest_main.cc"
+}
+]

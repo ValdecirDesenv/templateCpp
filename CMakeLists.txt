@@ -10,12 +10,15 @@ include(cmake/UpdateSubmodules.cmake)
 include(CTest)
 
 # Include directories
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/myLibs)
+include_directories(myLibs)
 
 # Add subdirectories
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src)  # Main Directoryls
+add_subdirectory(src)  # Main Directoryls
+add_subdirectory(myLibs)  # Main Directoryls
+add_subdirectory(src/db)  # Main Directoryls
+add_subdirectory(src/engine)  # Main Directoryls
 
 # GoogleTest
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/external/googletest) # GTTESTS > external
+add_subdirectory(external/googletest) # GTTESTS > external
 
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}//myLibs) # GTTESTS > external
+#add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/myLibs) 

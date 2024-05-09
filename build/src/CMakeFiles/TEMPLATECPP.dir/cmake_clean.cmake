@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o"
-  "CMakeFiles/TEMPLATECPP.dir/my_test.cpp.o.d"
+  "CMakeFiles/TEMPLATECPP.dir/main.cpp.o"
+  "CMakeFiles/TEMPLATECPP.dir/main.cpp.o.d"
   "TEMPLATECPP"
   "TEMPLATECPP.pdb"
   "TEMPLATECPP[1]_tests.cmake"
