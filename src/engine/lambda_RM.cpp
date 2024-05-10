@@ -3,8 +3,30 @@
 #include <functional>
 #include "lambda_RM.h"
 
+#include <map>
+#include <string>
+
 using namespace std;
 void lambdaBrowsing(){
+    // Lambda expression
+    // [](){}       => means
+    /*-------------------------------------------
+    
+    [capture_list] (parameter_list) -> return_type {
+        // lambda body
+    }  
+    */
+    //---------------------------------------------
+
+    // Lambda definition
+// Lambda definition
+    auto sum = [](int a, int b) -> int {
+        return a + b;
+    };
+
+    // Usage
+    int result2 = sum(3, 4); // result is 7
+
 
     // Lampda Expression ------------------------------
     vector<int> values = {3,4,6,7,8,3,4,6,2,3,1};

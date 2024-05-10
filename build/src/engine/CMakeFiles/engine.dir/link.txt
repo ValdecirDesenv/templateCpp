@@ -1,0 +1,2 @@
+/usr/bin/ar qc libengine.a CMakeFiles/engine.dir/regularLoops.cpp.o CMakeFiles/engine.dir/MyClass.cpp.o CMakeFiles/engine.dir/lambda_RM.cpp.o
+/usr/bin/ranlib libengine.a
