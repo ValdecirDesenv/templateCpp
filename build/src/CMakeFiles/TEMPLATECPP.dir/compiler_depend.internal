@@ -183,4 +183,6 @@ src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o
  /usr/include/c++/11/istream
  /usr/include/c++/11/bits/istream.tcc
  /home/vdc/dev/templateCpp/src/engine/MyClass.h
+ /home/vdc/dev/templateCpp/src/myLibs/myCallendar.h
+ /home/vdc/dev/templateCpp/src/engine/regularLoops.h
 

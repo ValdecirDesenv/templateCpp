@@ -93,7 +93,7 @@ TEMPLATECPP_EXTERNAL_OBJECTS =
 src/TEMPLATECPP: src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o
 src/TEMPLATECPP: src/CMakeFiles/TEMPLATECPP.dir/build.make
 src/TEMPLATECPP: lib/libgtest_main.a
-src/TEMPLATECPP: myLibs/libmyLibs.a
+src/TEMPLATECPP: src/myLibs/libmyLibs.a
 src/TEMPLATECPP: src/db/libdb.a
 src/TEMPLATECPP: src/engine/libengine.a
 src/TEMPLATECPP: lib/libgtest.a

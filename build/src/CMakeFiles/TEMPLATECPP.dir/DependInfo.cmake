@@ -14,7 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/vdc/dev/templateCpp/build/external/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/vdc/dev/templateCpp/build/myLibs/CMakeFiles/myLibs.dir/DependInfo.cmake"
+  "/home/vdc/dev/templateCpp/build/src/myLibs/CMakeFiles/myLibs.dir/DependInfo.cmake"
   "/home/vdc/dev/templateCpp/build/src/db/CMakeFiles/db.dir/DependInfo.cmake"
   "/home/vdc/dev/templateCpp/build/src/engine/CMakeFiles/engine.dir/DependInfo.cmake"
   "/home/vdc/dev/templateCpp/build/external/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"

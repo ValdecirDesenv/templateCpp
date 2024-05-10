@@ -181,7 +181,9 @@ src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../src/engine/MyClass.h
+  ../src/engine/MyClass.h \
+  ../src/myLibs/myCallendar.h \
+  ../src/engine/regularLoops.h
 
 
 ../src/engine/MyClass.h:
@@ -207,6 +209,8 @@ src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/c++/11/stdexcept:
+
+../src/myLibs/myCallendar.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
@@ -467,6 +471,8 @@ src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+../src/engine/regularLoops.h:
 
 /usr/include/c++/11/cctype:
 
