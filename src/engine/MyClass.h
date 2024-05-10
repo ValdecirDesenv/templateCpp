@@ -15,6 +15,8 @@ public:
 
     // Member function
     void display();
+
+    enum class MCU;
 };
 
 #endif

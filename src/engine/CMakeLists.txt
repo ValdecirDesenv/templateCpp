@@ -4,6 +4,7 @@ add_library(
     engine
     regularLoops.cpp
     MyClass.cpp
+    lambda_RM.cpp
 )
 
 # Include directories

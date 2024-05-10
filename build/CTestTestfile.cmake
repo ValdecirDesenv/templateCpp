@@ -5,7 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("src")
-subdirs("myLibs")
+subdirs("src/myLibs")
 subdirs("src/db")
 subdirs("src/engine")
 subdirs("external/googletest")

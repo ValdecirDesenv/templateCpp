@@ -14,7 +14,7 @@ include_directories(myLibs)
 
 # Add subdirectories
 add_subdirectory(src)  # Main Directoryls
-add_subdirectory(myLibs)  # Main Directoryls
+add_subdirectory(src/myLibs)  # Main Directoryls
 add_subdirectory(src/db)  # Main Directoryls
 add_subdirectory(src/engine)  # Main Directoryls
 

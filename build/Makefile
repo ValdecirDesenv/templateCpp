@@ -558,7 +558,7 @@ myLibs: cmake_check_build_system
 
 # fast build rule for target.
 myLibs/fast:
-	$(MAKE) $(MAKESILENT) -f myLibs/CMakeFiles/myLibs.dir/build.make myLibs/CMakeFiles/myLibs.dir/build
+	$(MAKE) $(MAKESILENT) -f src/myLibs/CMakeFiles/myLibs.dir/build.make src/myLibs/CMakeFiles/myLibs.dir/build
 .PHONY : myLibs/fast
 
 #=============================================================================

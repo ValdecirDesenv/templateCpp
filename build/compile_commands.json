@@ -1,18 +1,18 @@
 [
 {
   "directory": "/home/vdc/dev/templateCpp/build/src",
-  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/db -I/home/vdc/dev/templateCpp/engine -I/home/vdc/dev/templateCpp/src/db -I/home/vdc/dev/templateCpp/src/engine -isystem /home/vdc/dev/templateCpp/external/googletest/googletest/include -isystem /home/vdc/dev/templateCpp/external/googletest/googletest -g -o CMakeFiles/TEMPLATECPP.dir/main.cpp.o -c /home/vdc/dev/templateCpp/src/main.cpp",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/db -I/home/vdc/dev/templateCpp/engine -I/home/vdc/dev/templateCpp/src/myLibs -I/home/vdc/dev/templateCpp/src/db -I/home/vdc/dev/templateCpp/src/engine -isystem /home/vdc/dev/templateCpp/external/googletest/googletest/include -isystem /home/vdc/dev/templateCpp/external/googletest/googletest -g -o CMakeFiles/TEMPLATECPP.dir/main.cpp.o -c /home/vdc/dev/templateCpp/src/main.cpp",
   "file": "/home/vdc/dev/templateCpp/src/main.cpp"
 },
 {
-  "directory": "/home/vdc/dev/templateCpp/build/myLibs",
-  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -g -o CMakeFiles/myLibs.dir/challenges_arrays.cpp.o -c /home/vdc/dev/templateCpp/myLibs/challenges_arrays.cpp",
-  "file": "/home/vdc/dev/templateCpp/myLibs/challenges_arrays.cpp"
+  "directory": "/home/vdc/dev/templateCpp/build/src/myLibs",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/src/myLibs -g -o CMakeFiles/myLibs.dir/challenges_arrays.cpp.o -c /home/vdc/dev/templateCpp/src/myLibs/challenges_arrays.cpp",
+  "file": "/home/vdc/dev/templateCpp/src/myLibs/challenges_arrays.cpp"
 },
 {
-  "directory": "/home/vdc/dev/templateCpp/build/myLibs",
-  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -g -o CMakeFiles/myLibs.dir/myCallendar.cpp.o -c /home/vdc/dev/templateCpp/myLibs/myCallendar.cpp",
-  "file": "/home/vdc/dev/templateCpp/myLibs/myCallendar.cpp"
+  "directory": "/home/vdc/dev/templateCpp/build/src/myLibs",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/src/myLibs -g -o CMakeFiles/myLibs.dir/myCallendar.cpp.o -c /home/vdc/dev/templateCpp/src/myLibs/myCallendar.cpp",
+  "file": "/home/vdc/dev/templateCpp/src/myLibs/myCallendar.cpp"
 },
 {
   "directory": "/home/vdc/dev/templateCpp/build/src/db",
@@ -28,6 +28,11 @@
   "directory": "/home/vdc/dev/templateCpp/build/src/engine",
   "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/src/engine -g -o CMakeFiles/engine.dir/MyClass.cpp.o -c /home/vdc/dev/templateCpp/src/engine/MyClass.cpp",
   "file": "/home/vdc/dev/templateCpp/src/engine/MyClass.cpp"
+},
+{
+  "directory": "/home/vdc/dev/templateCpp/build/src/engine",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/src/engine -g -o CMakeFiles/engine.dir/lambda_RM.cpp.o -c /home/vdc/dev/templateCpp/src/engine/lambda_RM.cpp",
+  "file": "/home/vdc/dev/templateCpp/src/engine/lambda_RM.cpp"
 },
 {
   "directory": "/home/vdc/dev/templateCpp/build/external/googletest/googlemock",
