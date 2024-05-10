@@ -209,6 +209,30 @@ MyClass.cpp.s:
 	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/MyClass.cpp.s
 .PHONY : MyClass.cpp.s
 
+lambda_RM.o: lambda_RM.cpp.o
+.PHONY : lambda_RM.o
+
+# target to build an object file
+lambda_RM.cpp.o:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/lambda_RM.cpp.o
+.PHONY : lambda_RM.cpp.o
+
+lambda_RM.i: lambda_RM.cpp.i
+.PHONY : lambda_RM.i
+
+# target to preprocess a source file
+lambda_RM.cpp.i:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/lambda_RM.cpp.i
+.PHONY : lambda_RM.cpp.i
+
+lambda_RM.s: lambda_RM.cpp.s
+.PHONY : lambda_RM.s
+
+# target to generate assembly for a file
+lambda_RM.cpp.s:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/lambda_RM.cpp.s
+.PHONY : lambda_RM.cpp.s
+
 regularLoops.o: regularLoops.cpp.o
 .PHONY : regularLoops.o
 
@@ -250,6 +274,9 @@ help:
 	@echo "... MyClass.o"
 	@echo "... MyClass.i"
 	@echo "... MyClass.s"
+	@echo "... lambda_RM.o"
+	@echo "... lambda_RM.i"
+	@echo "... lambda_RM.s"
 	@echo "... regularLoops.o"
 	@echo "... regularLoops.i"
 	@echo "... regularLoops.s"

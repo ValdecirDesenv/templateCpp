@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/engine.dir/MyClass.cpp.o"
   "CMakeFiles/engine.dir/MyClass.cpp.o.d"
+  "CMakeFiles/engine.dir/lambda_RM.cpp.o"
+  "CMakeFiles/engine.dir/lambda_RM.cpp.o.d"
   "CMakeFiles/engine.dir/regularLoops.cpp.o"
   "CMakeFiles/engine.dir/regularLoops.cpp.o.d"
   "libengine.a"

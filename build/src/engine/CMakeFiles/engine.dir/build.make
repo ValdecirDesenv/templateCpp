@@ -97,19 +97,35 @@ src/engine/CMakeFiles/engine.dir/MyClass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/MyClass.cpp.s"
 	cd /home/vdc/dev/templateCpp/build/src/engine && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vdc/dev/templateCpp/src/engine/MyClass.cpp -o CMakeFiles/engine.dir/MyClass.cpp.s
 
+src/engine/CMakeFiles/engine.dir/lambda_RM.cpp.o: src/engine/CMakeFiles/engine.dir/flags.make
+src/engine/CMakeFiles/engine.dir/lambda_RM.cpp.o: ../src/engine/lambda_RM.cpp
+src/engine/CMakeFiles/engine.dir/lambda_RM.cpp.o: src/engine/CMakeFiles/engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/engine/CMakeFiles/engine.dir/lambda_RM.cpp.o"
+	cd /home/vdc/dev/templateCpp/build/src/engine && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/engine/CMakeFiles/engine.dir/lambda_RM.cpp.o -MF CMakeFiles/engine.dir/lambda_RM.cpp.o.d -o CMakeFiles/engine.dir/lambda_RM.cpp.o -c /home/vdc/dev/templateCpp/src/engine/lambda_RM.cpp
+
+src/engine/CMakeFiles/engine.dir/lambda_RM.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/lambda_RM.cpp.i"
+	cd /home/vdc/dev/templateCpp/build/src/engine && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vdc/dev/templateCpp/src/engine/lambda_RM.cpp > CMakeFiles/engine.dir/lambda_RM.cpp.i
+
+src/engine/CMakeFiles/engine.dir/lambda_RM.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/lambda_RM.cpp.s"
+	cd /home/vdc/dev/templateCpp/build/src/engine && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vdc/dev/templateCpp/src/engine/lambda_RM.cpp -o CMakeFiles/engine.dir/lambda_RM.cpp.s
+
 # Object files for target engine
 engine_OBJECTS = \
 "CMakeFiles/engine.dir/regularLoops.cpp.o" \
-"CMakeFiles/engine.dir/MyClass.cpp.o"
+"CMakeFiles/engine.dir/MyClass.cpp.o" \
+"CMakeFiles/engine.dir/lambda_RM.cpp.o"
 
 # External object files for target engine
 engine_EXTERNAL_OBJECTS =
 
 src/engine/libengine.a: src/engine/CMakeFiles/engine.dir/regularLoops.cpp.o
 src/engine/libengine.a: src/engine/CMakeFiles/engine.dir/MyClass.cpp.o
+src/engine/libengine.a: src/engine/CMakeFiles/engine.dir/lambda_RM.cpp.o
 src/engine/libengine.a: src/engine/CMakeFiles/engine.dir/build.make
 src/engine/libengine.a: src/engine/CMakeFiles/engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libengine.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libengine.a"
 	cd /home/vdc/dev/templateCpp/build/src/engine && $(CMAKE_COMMAND) -P CMakeFiles/engine.dir/cmake_clean_target.cmake
 	cd /home/vdc/dev/templateCpp/build/src/engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/engine.dir/link.txt --verbose=$(VERBOSE)
 
