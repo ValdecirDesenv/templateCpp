@@ -3,6 +3,6 @@
 
 
 void lambdaBrowsing();
-
+void mapFilterReduce();
 
 #endif /* LAMBDA_RM_H_ */

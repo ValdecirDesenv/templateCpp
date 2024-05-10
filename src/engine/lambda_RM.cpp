@@ -5,6 +5,7 @@
 
 #include <map>
 #include <string>
+#include <numeric>
 
 using namespace std;
 void lambdaBrowsing(){
@@ -45,5 +46,50 @@ void lambdaBrowsing(){
         std::cout << num << " ";
     }
     std::cout << std::endl;
+
+}
+
+void mapFilterReduce(){
+    
+    auto header = [](string title){
+    cout << "---- " << title << " ----" << '\n';
+    };
+    
+    auto render = [](auto collection) {
+        for (const auto &val: collection) {
+        cout << val << '\n';
+        }
+    };
+
+    header("map");
+    vector<int> inCollection{11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+    vector<int> outCollection;
+    
+    //The std::transform function in C++ applies a given operation to each element of a sequence 
+    //(such as a range in a container) and stores the result in another sequence. It's part of the C++ Standard
+    //  template< class InputIt, class OutputIt, class UnaryOperation >
+    //  OutputIt transform( InputIt first1, InputIt last1, OutputIt d_first, UnaryOperation unary_op );
+    transform(inCollection.begin(), inCollection.end(), back_inserter(outCollection),
+                [](const int &value) { return value * 3; });
+    render(outCollection);
+
+    header("filter");
+    vector<int> filteredCollection;
+
+
+    // The std::copy_if function in C++ copies elements from one range to another based on a specified condition. 
+    // It's part of the C++ Standard Library's <algorithm> header.
+    copy_if(outCollection.begin(), outCollection.end(), back_inserter(filteredCollection),
+            [](int &value) { return value % 2 != 0; });
+    render(filteredCollection);
+
+    header("reduce");
+    // The std::accumulate function in C++ calculates the sum of a range of elements or the result of a 
+    // binary operation over a range. It's part of the C++ Standard Library's <numeric> header.
+    int results = accumulate(filteredCollection.begin(), filteredCollection.end(),
+                            0, [](int total, int current) {
+            return total + current;
+        });
+    cout << "results: " << results << "\n";
 
 }

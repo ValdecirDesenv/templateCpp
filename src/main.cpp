@@ -46,6 +46,8 @@ int main(int argc, char const *argv[])
     //-------------------------------------------------
     
 
-    lambdaBrowsing(); // Testing FROM lambda_RM  
+    lambdaBrowsing(); // Testing FROM lambda_RM 
+    mapFilterReduce(); // Testing FROM lambda_RM
+    
     return 0;
 }
