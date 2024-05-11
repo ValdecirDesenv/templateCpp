@@ -25,3 +25,6 @@ target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/db)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE engine)
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/engine)
+
+target_link_libraries(${PROJECT_NAME} PRIVATE models)
+target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/models)

@@ -177,6 +177,9 @@
 			"path" : "src/engine/CMakeLists.txt"
 		},
 		{
+			"path" : "src/models/CMakeLists.txt"
+		},
+		{
 			"path" : "external/googletest/CMakeLists.txt"
 		},
 		{

@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/TEMPLATECPP.dir/main.cpp.o -o TEMPLATECPP  ../lib/libgtest_main.a myLibs/libmyLibs.a db/libdb.a engine/libengine.a ../lib/libgtest.a 
+/usr/bin/g++ -g CMakeFiles/TEMPLATECPP.dir/main.cpp.o -o TEMPLATECPP  ../lib/libgtest_main.a myLibs/libmyLibs.a db/libdb.a engine/libengine.a models/libmodels.a ../lib/libgtest.a 

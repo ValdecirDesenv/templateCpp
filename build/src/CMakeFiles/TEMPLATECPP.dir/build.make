@@ -96,6 +96,7 @@ src/TEMPLATECPP: lib/libgtest_main.a
 src/TEMPLATECPP: src/myLibs/libmyLibs.a
 src/TEMPLATECPP: src/db/libdb.a
 src/TEMPLATECPP: src/engine/libengine.a
+src/TEMPLATECPP: src/models/libmodels.a
 src/TEMPLATECPP: lib/libgtest.a
 src/TEMPLATECPP: src/CMakeFiles/TEMPLATECPP.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TEMPLATECPP"

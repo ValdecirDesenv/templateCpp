@@ -588,6 +588,19 @@ engine/fast:
 .PHONY : engine/fast
 
 #=============================================================================
+# Target rules for targets named models
+
+# Build rule for target.
+models: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 models
+.PHONY : models
+
+# fast build rule for target.
+models/fast:
+	$(MAKE) $(MAKESILENT) -f src/models/CMakeFiles/models.dir/build.make src/models/CMakeFiles/models.dir/build
+.PHONY : models/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -687,6 +700,7 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... models"
 	@echo "... myLibs"
 .PHONY : help
 

@@ -17,6 +17,7 @@ add_subdirectory(src)  # Main Directoryls
 add_subdirectory(src/myLibs)  # Main Directoryls
 add_subdirectory(src/db)  # Main Directoryls
 add_subdirectory(src/engine)  # Main Directoryls
+add_subdirectory(src/models)  # Main Directoryls
 
 # GoogleTest
 add_subdirectory(external/googletest) # GTTESTS > external

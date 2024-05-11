@@ -65,6 +65,14 @@
 /home/vdc/dev/templateCpp/build/src/engine/CMakeFiles/install.dir
 /home/vdc/dev/templateCpp/build/src/engine/CMakeFiles/install/local.dir
 /home/vdc/dev/templateCpp/build/src/engine/CMakeFiles/install/strip.dir
+/home/vdc/dev/templateCpp/build/src/models/CMakeFiles/models.dir
+/home/vdc/dev/templateCpp/build/src/models/CMakeFiles/test.dir
+/home/vdc/dev/templateCpp/build/src/models/CMakeFiles/edit_cache.dir
+/home/vdc/dev/templateCpp/build/src/models/CMakeFiles/rebuild_cache.dir
+/home/vdc/dev/templateCpp/build/src/models/CMakeFiles/list_install_components.dir
+/home/vdc/dev/templateCpp/build/src/models/CMakeFiles/install.dir
+/home/vdc/dev/templateCpp/build/src/models/CMakeFiles/install/local.dir
+/home/vdc/dev/templateCpp/build/src/models/CMakeFiles/install/strip.dir
 /home/vdc/dev/templateCpp/build/external/googletest/CMakeFiles/test.dir
 /home/vdc/dev/templateCpp/build/external/googletest/CMakeFiles/edit_cache.dir
 /home/vdc/dev/templateCpp/build/external/googletest/CMakeFiles/rebuild_cache.dir

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/src/engine -I/home/vdc/dev/templateCpp/src/models
+CXX_INCLUDES = -I/home/vdc/dev/templateCpp/myLibs
 
 CXX_FLAGS = -g
 

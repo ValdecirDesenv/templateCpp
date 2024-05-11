@@ -67,6 +67,7 @@ all: src/all
 all: src/myLibs/all
 all: src/db/all
 all: src/engine/all
+all: src/models/all
 all: external/googletest/all
 .PHONY : all
 
@@ -75,6 +76,7 @@ preinstall: src/preinstall
 preinstall: src/myLibs/preinstall
 preinstall: src/db/preinstall
 preinstall: src/engine/preinstall
+preinstall: src/models/preinstall
 preinstall: external/googletest/preinstall
 .PHONY : preinstall
 
@@ -111,6 +113,7 @@ clean: src/clean
 clean: src/myLibs/clean
 clean: src/db/clean
 clean: src/engine/clean
+clean: src/models/clean
 clean: external/googletest/clean
 .PHONY : clean
 
@@ -209,6 +212,21 @@ src/engine/preinstall:
 # Recursive "clean" directory target.
 src/engine/clean: src/engine/CMakeFiles/engine.dir/clean
 .PHONY : src/engine/clean
+
+#=============================================================================
+# Directory level rules for directory src/models
+
+# Recursive "all" directory target.
+src/models/all: src/models/CMakeFiles/models.dir/all
+.PHONY : src/models/all
+
+# Recursive "preinstall" directory target.
+src/models/preinstall:
+.PHONY : src/models/preinstall
+
+# Recursive "clean" directory target.
+src/models/clean: src/models/CMakeFiles/models.dir/clean
+.PHONY : src/models/clean
 
 #=============================================================================
 # Directory level rules for directory src/myLibs
@@ -960,6 +978,7 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 src/CMakeFiles/TEMPLATECPP.dir/all: src/myLibs/CMakeFiles/myLibs.dir/all
 src/CMakeFiles/TEMPLATECPP.dir/all: src/db/CMakeFiles/db.dir/all
 src/CMakeFiles/TEMPLATECPP.dir/all: src/engine/CMakeFiles/engine.dir/all
+src/CMakeFiles/TEMPLATECPP.dir/all: src/models/CMakeFiles/models.dir/all
 src/CMakeFiles/TEMPLATECPP.dir/all: external/googletest/googletest/CMakeFiles/gtest.dir/all
 src/CMakeFiles/TEMPLATECPP.dir/all: external/googletest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TEMPLATECPP.dir/build.make src/CMakeFiles/TEMPLATECPP.dir/depend
@@ -969,7 +988,7 @@ src/CMakeFiles/TEMPLATECPP.dir/all: external/googletest/googletest/CMakeFiles/gt
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/TEMPLATECPP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/TEMPLATECPP.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/TEMPLATECPP.dir/rule
@@ -990,7 +1009,7 @@ src/CMakeFiles/TEMPLATECPP.dir/clean:
 src/myLibs/CMakeFiles/myLibs.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/myLibs/CMakeFiles/myLibs.dir/build.make src/myLibs/CMakeFiles/myLibs.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/myLibs/CMakeFiles/myLibs.dir/build.make src/myLibs/CMakeFiles/myLibs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=17,18,19 "Built target myLibs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=19,20,21 "Built target myLibs"
 .PHONY : src/myLibs/CMakeFiles/myLibs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1060,6 +1079,32 @@ engine: src/engine/CMakeFiles/engine.dir/rule
 src/engine/CMakeFiles/engine.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/engine/CMakeFiles/engine.dir/build.make src/engine/CMakeFiles/engine.dir/clean
 .PHONY : src/engine/CMakeFiles/engine.dir/clean
+
+#=============================================================================
+# Target rules for target src/models/CMakeFiles/models.dir
+
+# All Build rule for target.
+src/models/CMakeFiles/models.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/models/CMakeFiles/models.dir/build.make src/models/CMakeFiles/models.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/models/CMakeFiles/models.dir/build.make src/models/CMakeFiles/models.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=17,18 "Built target models"
+.PHONY : src/models/CMakeFiles/models.dir/all
+
+# Build rule for subdir invocation for target.
+src/models/CMakeFiles/models.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/models/CMakeFiles/models.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vdc/dev/templateCpp/build/CMakeFiles 0
+.PHONY : src/models/CMakeFiles/models.dir/rule
+
+# Convenience name for target.
+models: src/models/CMakeFiles/models.dir/rule
+.PHONY : models
+
+# clean rule for target.
+src/models/CMakeFiles/models.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/models/CMakeFiles/models.dir/build.make src/models/CMakeFiles/models.dir/clean
+.PHONY : src/models/CMakeFiles/models.dir/clean
 
 #=============================================================================
 # Target rules for target external/googletest/googlemock/CMakeFiles/gmock.dir
