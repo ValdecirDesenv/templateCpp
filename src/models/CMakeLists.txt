@@ -3,7 +3,7 @@
 add_library(
     models
     templates.cpp
- 
+    Stack.cpp
 )
 
 # Include directories

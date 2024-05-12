@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/vdc/dev/templateCpp/src/models/Stack.cpp" "src/models/CMakeFiles/models.dir/Stack.cpp.o" "gcc" "src/models/CMakeFiles/models.dir/Stack.cpp.o.d"
   "/home/vdc/dev/templateCpp/src/models/templates.cpp" "src/models/CMakeFiles/models.dir/templates.cpp.o" "gcc" "src/models/CMakeFiles/models.dir/templates.cpp.o.d"
   )
 

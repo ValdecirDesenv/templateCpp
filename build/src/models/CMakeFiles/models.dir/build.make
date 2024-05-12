@@ -83,17 +83,33 @@ src/models/CMakeFiles/models.dir/templates.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/models.dir/templates.cpp.s"
 	cd /home/vdc/dev/templateCpp/build/src/models && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vdc/dev/templateCpp/src/models/templates.cpp -o CMakeFiles/models.dir/templates.cpp.s
 
+src/models/CMakeFiles/models.dir/Stack.cpp.o: src/models/CMakeFiles/models.dir/flags.make
+src/models/CMakeFiles/models.dir/Stack.cpp.o: ../src/models/Stack.cpp
+src/models/CMakeFiles/models.dir/Stack.cpp.o: src/models/CMakeFiles/models.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/models/CMakeFiles/models.dir/Stack.cpp.o"
+	cd /home/vdc/dev/templateCpp/build/src/models && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/models/CMakeFiles/models.dir/Stack.cpp.o -MF CMakeFiles/models.dir/Stack.cpp.o.d -o CMakeFiles/models.dir/Stack.cpp.o -c /home/vdc/dev/templateCpp/src/models/Stack.cpp
+
+src/models/CMakeFiles/models.dir/Stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/models.dir/Stack.cpp.i"
+	cd /home/vdc/dev/templateCpp/build/src/models && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vdc/dev/templateCpp/src/models/Stack.cpp > CMakeFiles/models.dir/Stack.cpp.i
+
+src/models/CMakeFiles/models.dir/Stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/models.dir/Stack.cpp.s"
+	cd /home/vdc/dev/templateCpp/build/src/models && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vdc/dev/templateCpp/src/models/Stack.cpp -o CMakeFiles/models.dir/Stack.cpp.s
+
 # Object files for target models
 models_OBJECTS = \
-"CMakeFiles/models.dir/templates.cpp.o"
+"CMakeFiles/models.dir/templates.cpp.o" \
+"CMakeFiles/models.dir/Stack.cpp.o"
 
 # External object files for target models
 models_EXTERNAL_OBJECTS =
 
 src/models/libmodels.a: src/models/CMakeFiles/models.dir/templates.cpp.o
+src/models/libmodels.a: src/models/CMakeFiles/models.dir/Stack.cpp.o
 src/models/libmodels.a: src/models/CMakeFiles/models.dir/build.make
 src/models/libmodels.a: src/models/CMakeFiles/models.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmodels.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vdc/dev/templateCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libmodels.a"
 	cd /home/vdc/dev/templateCpp/build/src/models && $(CMAKE_COMMAND) -P CMakeFiles/models.dir/cmake_clean_target.cmake
 	cd /home/vdc/dev/templateCpp/build/src/models && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/models.dir/link.txt --verbose=$(VERBOSE)
 

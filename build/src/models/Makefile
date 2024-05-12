@@ -185,6 +185,30 @@ models/fast:
 	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/models/CMakeFiles/models.dir/build.make src/models/CMakeFiles/models.dir/build
 .PHONY : models/fast
 
+Stack.o: Stack.cpp.o
+.PHONY : Stack.o
+
+# target to build an object file
+Stack.cpp.o:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/models/CMakeFiles/models.dir/build.make src/models/CMakeFiles/models.dir/Stack.cpp.o
+.PHONY : Stack.cpp.o
+
+Stack.i: Stack.cpp.i
+.PHONY : Stack.i
+
+# target to preprocess a source file
+Stack.cpp.i:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/models/CMakeFiles/models.dir/build.make src/models/CMakeFiles/models.dir/Stack.cpp.i
+.PHONY : Stack.cpp.i
+
+Stack.s: Stack.cpp.s
+.PHONY : Stack.s
+
+# target to generate assembly for a file
+Stack.cpp.s:
+	cd /home/vdc/dev/templateCpp/build && $(MAKE) $(MAKESILENT) -f src/models/CMakeFiles/models.dir/build.make src/models/CMakeFiles/models.dir/Stack.cpp.s
+.PHONY : Stack.cpp.s
+
 templates.o: templates.cpp.o
 .PHONY : templates.o
 
@@ -223,6 +247,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... models"
+	@echo "... Stack.o"
+	@echo "... Stack.i"
+	@echo "... Stack.s"
 	@echo "... templates.o"
 	@echo "... templates.i"
 	@echo "... templates.s"

@@ -40,6 +40,11 @@
   "file": "/home/vdc/dev/templateCpp/src/models/templates.cpp"
 },
 {
+  "directory": "/home/vdc/dev/templateCpp/build/src/models",
+  "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -g -o CMakeFiles/models.dir/Stack.cpp.o -c /home/vdc/dev/templateCpp/src/models/Stack.cpp",
+  "file": "/home/vdc/dev/templateCpp/src/models/Stack.cpp"
+},
+{
   "directory": "/home/vdc/dev/templateCpp/build/external/googletest/googlemock",
   "command": "/usr/bin/g++  -I/home/vdc/dev/templateCpp/myLibs -I/home/vdc/dev/templateCpp/external/googletest/googlemock/include -I/home/vdc/dev/templateCpp/external/googletest/googlemock -isystem /home/vdc/dev/templateCpp/external/googletest/googletest/include -isystem /home/vdc/dev/templateCpp/external/googletest/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/vdc/dev/templateCpp/external/googletest/googlemock/src/gmock-all.cc",
   "file": "/home/vdc/dev/templateCpp/external/googletest/googlemock/src/gmock-all.cc"

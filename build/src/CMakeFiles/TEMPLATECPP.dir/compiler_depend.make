@@ -212,7 +212,8 @@ src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/stl_tempbuf.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
-  ../src/engine/lambda_RM.h
+  ../src/engine/lambda_RM.h \
+  ../src/models/Stack.h
 
 
 /usr/include/c++/11/bits/stl_heap.h:
@@ -226,6 +227,8 @@ src/CMakeFiles/TEMPLATECPP.dir/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/bits/enable_special_members.h:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
+
+../src/models/Stack.h:
 
 /usr/include/c++/11/bits/hashtable.h:
 

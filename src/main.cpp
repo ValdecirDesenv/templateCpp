@@ -14,7 +14,8 @@
 #include "engine/MCU.h"
 #include <vector>
 #include <functional>
-#include "lambda_RM.h"
+#include "engine/lambda_RM.h"
+#include "models/Stack.h"
 
 using namespace std;
 int main(int argc, char const *argv[])
@@ -48,6 +49,11 @@ int main(int argc, char const *argv[])
 
     lambdaBrowsing(); // Testing FROM lambda_RM 
     mapFilterReduce(); // Testing FROM lambda_RM
+    //-------------------------------------------------
     
-    return 0;
+    Stack<int> intStack(5); // stack of integers
+    intStack.push(1);
+    intStack.push(2);
+    cout << intStack.pop() << endl; // pops 2
+
 }

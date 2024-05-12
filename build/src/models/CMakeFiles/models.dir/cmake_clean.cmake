@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/models.dir/Stack.cpp.o"
+  "CMakeFiles/models.dir/Stack.cpp.o.d"
   "CMakeFiles/models.dir/templates.cpp.o"
   "CMakeFiles/models.dir/templates.cpp.o.d"
   "libmodels.a"
